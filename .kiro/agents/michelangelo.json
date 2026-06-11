@@ -1,0 +1,10 @@
+{
+  "name": "michelangelo",
+  "description": "Creative lateral thinker. Finds the unexpected angle, the meme solution, the elegant shortcut.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/michelangelo.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/michelangelo.md"
+  ]
+}

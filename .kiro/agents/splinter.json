@@ -1,0 +1,10 @@
+{
+  "name": "splinter",
+  "description": "Ratman orchestrator — analyses the task, picks the right turtle(s), coordinates the squad.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/splinter.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/splinter.md"
+  ]
+}

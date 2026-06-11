@@ -1,0 +1,10 @@
+{
+  "name": "raphael",
+  "description": "Gets things done fast. Ships the fix, documents it briefly, moves on.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/raphael.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/raphael.md"
+  ]
+}

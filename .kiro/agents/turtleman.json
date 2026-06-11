@@ -1,0 +1,9 @@
+{
+  "name": "turtleman",
+  "description": "Siege-specialist entry point — activates Turtleman mode, routes non-trivial tasks to Splinter.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/turtleman.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md"
+  ]
+}

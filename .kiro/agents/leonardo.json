@@ -1,0 +1,10 @@
+{
+  "name": "leonardo",
+  "description": "Plans, leads, coordinates. Designs the approach before touching code.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/leonardo.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/leonardo.md"
+  ]
+}

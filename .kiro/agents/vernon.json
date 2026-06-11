@@ -1,0 +1,10 @@
+{
+  "name": "vernon",
+  "description": "Socratic requirement enforcer. Intercepts vague tasks and asks targeted questions until requirements are specific enough to act on.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/vernon.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/vernon.md"
+  ]
+}

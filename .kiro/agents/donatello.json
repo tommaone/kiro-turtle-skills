@@ -1,0 +1,10 @@
+{
+  "name": "donatello",
+  "description": "Tech and tooling specialist. Automates everything, wires up pipelines, fixes infra nobody else wants to touch.",
+  "model": "claude-sonnet-4",
+  "prompt": "file://~/.turtles/turtles/donatello.md",
+  "resources": [
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/donatello.md"
+  ]
+}
