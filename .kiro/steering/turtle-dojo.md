@@ -1,6 +1,3 @@
----
-inclusion: always
----
 # Turtle Dojo 🥋
 
 Shared rules for all turtles. Read this before acting on any task.
@@ -59,6 +56,24 @@ Configure your own MCPs for your stack. Replace these placeholders:
 | Writing or reviewing any code | `your-standards-mcp` — check rules for the language first |
 | Infrastructure changes | Your infra skill / plan tool |
 | Monitoring / alerting | Your observability skill |
+
+---
+
+## Model selection
+
+Match model to task weight. Overpowering a simple lookup wastes time and money. Underpowering architecture or adversarial work produces shallow results.
+
+| Tier | Use when | Claude Code | Kiro / opencode |
+|------|----------|-------------|-----------------|
+| **Fast** | Single lookup, grep, summarise, mechanical edit | Haiku | smallest available |
+| **Balanced** | Standard coding, bug fix, moderate refactor | Sonnet | mid-tier |
+| **Heavy** | Architecture design, adversarial review, multi-step orchestration, research synthesis | Opus | largest available |
+
+**Rules:**
+- Splinter defaults to Balanced; bumps to Heavy when the plan spans >3 turtles or requires Shredder
+- Shredder always runs Heavy — a cheap adversary is a useless adversary
+- Workflow Verify and Synthesize phases run Heavy
+- Kids (subagents) inherit the parent tier unless the task is clearly simpler
 
 ---
 
