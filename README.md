@@ -58,17 +58,21 @@ done
 
 ### Steering files (IDE — always active)
 
-Copy or symlink `.kiro/steering/` into your workspace:
+Copy `turtleman.md` and the dojo from `~/.turtles/dojo/` into your workspace:
 
 ```bash
-cp -r kiro-turtle-skills/.kiro/steering .kiro/steering
+cp kiro-turtle-skills/.kiro/steering/turtleman.md .kiro/steering/turtleman.md
+cp ~/.turtles/dojo/turtle-dojo.md .kiro/steering/turtle-dojo.md
 ```
 
 Or for global activation across all workspaces:
 
 ```bash
-cp kiro-turtle-skills/.kiro/steering/*.md ~/.kiro/steering/
+cp kiro-turtle-skills/.kiro/steering/turtleman.md ~/.kiro/steering/turtleman.md
+cp ~/.turtles/dojo/turtle-dojo.md ~/.kiro/steering/turtle-dojo.md
 ```
+
+`turtle-dojo.md` is not tracked in this repo — it lives in `~/.turtles/dojo/` (from [turtle-squad-core](https://github.com/tommaone/turtle-squad-core)) and is the single source of truth across all platforms. Re-run the copy step after any dojo update.
 
 ### Custom agents (CLI)
 
@@ -89,7 +93,7 @@ kiro agent splinter "refactor the auth module"
 ```
 User → Kiro IDE/CLI
   → .kiro/steering/turtleman.md   (always active, sets mode)
-  → .kiro/steering/turtle-dojo.md (always active, shared rules)
+  → .kiro/steering/turtle-dojo.md (always active — copied from ~/.turtles/dojo/ on setup)
   → .kiro/agents/<turtle>.json    (CLI agents, prompt → ~/.turtles/turtles/)
          ↕
 ~/.turtles/turtles/<turtle>.md    (canonical turtle bodies, from turtle-squad-core)
