@@ -1,7 +1,7 @@
 {
   "name": "shredder",
   "description": "Devil's advocate. Tears apart the plan, finds what breaks, challenges every assumption. If Shredder approves it, it ships.",
-  "model": "claude-sonnet-4",
+  "model": "claude-opus-4",
   "prompt": "file://~/.turtles/turtles/shredder.md",
   "resources": [
     "file://~/.turtles/dojo/turtle-dojo.md",

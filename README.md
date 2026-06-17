@@ -15,6 +15,18 @@ TMNT turtle squad for [Kiro](https://kiro.dev) — siege-specialist development 
 | michelangelo 🟠 | Creative lateral thinker |
 | shredder ⚔️ | Adversarial gatekeeper/reviewer |
 
+## Install Kiro CLI
+
+```powershell
+irm https://cli.kiro.dev/install.ps1 | iex
+```
+
+Then log in:
+
+```bash
+kiro-cli login
+```
+
 ## Prerequisites
 
 Turtle bodies and evolution files must be installed at `~/.turtles/`:
@@ -84,8 +96,8 @@ cp -r kiro-turtle-skills/.kiro/agents ~/.kiro/agents
 
 Invoke agents in the Kiro CLI:
 
-```
-kiro agent splinter "refactor the auth module"
+```bash
+kiro-cli chat --agent splinter
 ```
 
 ## Architecture

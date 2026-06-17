@@ -4,6 +4,7 @@
   "model": "claude-sonnet-4",
   "prompt": "file://~/.turtles/turtles/turtleman.md",
   "resources": [
-    "file://~/.turtles/dojo/turtle-dojo.md"
+    "file://~/.turtles/dojo/turtle-dojo.md",
+    "file://~/.turtles/evolution/turtleman.md"
   ]
 }
